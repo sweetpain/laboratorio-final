@@ -1,0 +1,109 @@
+h1{
+	font-size: 40px;
+	margin-left: 30px;
+}
+.container{
+	margin: 100px auto;
+	padding: 0 ;
+	
+	max-width: 1000px;
+	width:100%;
+	height: 100%;
+	background-color: white;
+}
+.containertodo{
+	max-width: 900px;
+	width: 70%;
+	height: 70%;
+	margin: 0px auto;
+	background-color: #E1E0E0;
+}
+.containercontrate{
+	margin: 0 auto;
+	padding: 0 ;
+	width: 90%;
+	max-width: 1200px;
+	width: 100%;
+	height: 100%;
+	background-color: #E1E0E0;
+}
+.f1{
+	color: red;
+
+}
+.planfacturacion{
+	border: 1px;
+	color: red;
+}
+.dato{
+	color: black;
+}
+.p2{
+	color: #AEA5A5;
+}
+.contratar{
+	color: white;
+	width: 100px;
+	height:  35px;
+	background-color: red;
+	text-align: center;
+	font-size: 20px;
+}
+fieldset{
+	border-color: red;
+	
+}
+footer{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	clear:both;
+	text-align: left;
+	border-top: solid 8px #F017BA;
+}
+
+
+.containerfondo{
+	background: #E1E0E0;
+}
+
+img:hover{
+	-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+
+h1:hover{
+	color: green;
+	font-size: 12px;
+	background-color: red;
+	transition-property: color,background-color,font-size;
+	transition-duration: 2s,3s,2s;
+	transition-timing-function: linear,ease-out,ease-out;
+}
+
+.contratar:hover{
+	-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+color: green;
+	font-size: 90px;
+	background-color: orange;
+	transition-property: color,background-color,font-size;
+	transition-duration: 2s,3s,2s;
+	transition-timing-function: linear,ease-out,ease-out;
+}

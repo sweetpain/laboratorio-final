@@ -1,0 +1,131 @@
+header{
+	width: 11%;
+	height: 110%;
+	margin: 0px auto;
+	max-width: 1300px;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	max-width: 1200px;
+	background-color: #D4D4D4;
+}
+
+
+
+.logo{
+	margin: auto;
+	display: block;
+	padding: 8px;
+}
+
+h1{
+	font-size: 45px;
+	text-align: center;
+}
+
+.flecha{
+  background-repeat: no-repeat;	
+}
+
+h2{
+	color: #F13B9D;
+	display: inline;
+}
+
+
+
+h3{
+	text-align: right;
+	color: #F13B9D;
+	display: inline;
+}
+
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: right;
+}
+.menu ul li a{
+	padding: 8px 8px;
+	display: block;
+	color: #F13B9D;
+	text-decoration: none;
+	font-size: 20px;
+}
+.menu ul li a{
+	margin-left: 2%;
+}
+
+.caja1, .caja2, .caja3{
+	background-color: #605B5B;
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 10px 20px;
+	display: block;
+	float: right;
+}
+
+.numerouno, .numerodos, .numerotres{
+	float: left;
+	border-right: 1px solid white;
+	font-size: 150px;
+}
+
+.numerouno{
+	color: #1BF935;
+	
+}
+
+.numerodos{
+	color: #F2923D;
+	
+}
+
+.numerotres{
+	color: #2CD8EC;
+	
+}
+
+
+
+body{
+	background: #D4D4D4;
+}
+
+
+table{
+	position: absolute;
+	width: 85%;
+	left:-15% ;
+	top: 10%;
+	margin-right: 20%;
+	text-align:left;
+	margin-left: 20%;
+margin-top: 20%;
+}
+tr, td{
+	width: 400px;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding: 30px;
+	font-size: 20px;
+}
+
+.logo:hover{
+-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+

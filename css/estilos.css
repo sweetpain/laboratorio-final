@@ -1,0 +1,115 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1170px;
+	min-width: 780px;
+}
+.cuadros{
+	background: #DB0B63;
+	color: white;
+	font-size: 25px;
+
+}
+
+.main{
+	background-image: url('../img/bg-seccion1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 1px: solid black;
+	height: 800px;
+}
+
+li{
+	list-style: none;
+}
+
+p{
+	font-size: 30px;
+	
+}
+
+ li a{
+ 	text-decoration: none;
+ 	float: left;
+ 	padding: 10px;
+ 	background: #F210EA;
+ 	margin-top: 100px;
+    color: white;
+    margin-left: 3%;
+}
+
+ .img1{
+ 	margin-top: 100px;
+ 	margin-bottom: 100px;
+
+ }
+
+ 
+ 
+footer{
+	height: 120px;
+	background-color: black;
+	border-top: 5px solid pink;
+color: white;
+font-size: 10px;
+clear: both;
+
+
+}
+
+article{
+float: left;
+}
+
+.texto1{
+	margin-top: 150px;
+	margin-left: 50px;
+}
+
+li{
+	margin-bottom: 5px;
+}
+
+a:hover{
+	-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+
+
+img:hover{
+	-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+
+.ultimo:hover{
+	color: #FFF;
+	width: 150px;
+	background-color: #CD38B3;
+	transition-property: color,background-color,width;
+	transition-duration: 2s,3s,2s;
+	transition-timing-function: linear,ease-out,ease-out;
+}
