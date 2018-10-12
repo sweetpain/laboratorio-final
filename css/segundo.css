@@ -1,9 +1,4 @@
-header{
-	width: 11%;
-	height: 110%;
-	margin: 0px auto;
-	max-width: 1300px;
-}
+
 
 #container{
 	width: 100%;
@@ -16,10 +11,14 @@ header{
 
 
 .logo{
-	margin: auto;
-	display: block;
-	padding: 8px;
+	margin: 0 auto;
+	width: 90%;
+	padding: 0;
+	max-width: 1800px;
+	height: 100%;
+	background-color: white;
 }
+
 
 h1{
 	font-size: 45px;
@@ -99,7 +98,7 @@ body{
 
 
 table{
-	position: absolute;
+	position: relative;
 	width: 85%;
 	left:-15% ;
 	top: 10%;
@@ -107,6 +106,7 @@ table{
 	text-align:left;
 	margin-left: 20%;
 margin-top: 20%;
+overflow: hidden;
 }
 tr, td{
 	width: 400px;
@@ -116,16 +116,23 @@ tr, td{
 	font-size: 20px;
 }
 
-.logo:hover{
--moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
--webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
--o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
--ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
--webkit-transition: all 1000ms ease-in-out;
--moz-transition: all 1000ms ease-in-out;
--ms-transition: all 1000ms ease-in-out;
--o-transition: all 1000ms ease-in-out;
-transition: all 1000ms ease-in-out;
+
+@media only screen and (800px) {
+	#container{
+		margin: 0;
+		width: 100%;
+		overflow: hidden;
+		display: block;
+	}
+	
 }
 
+.con{
+	background-color: red; 
+	font-size: 20px;
+	float: right; 
+	margin: 20px 800px;
+	padding: 5px 5px;
+	text-decoration: none;
+	color: white;
+}

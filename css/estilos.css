@@ -113,3 +113,19 @@ transition: all 1000ms ease-in-out;
 	transition-duration: 2s,3s,2s;
 	transition-timing-function: linear,ease-out,ease-out;
 }
+
+@media only screen and (800px) {
+	.container{
+		margin: 0;
+		width: 100%;
+		overflow: hidden;
+		display: block;
+	}
+	
+}
+
+.primero{
+	padding-top:  190px;
+	font-size: 45px;
+}
+

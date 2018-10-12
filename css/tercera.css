@@ -21,11 +21,9 @@ h1{
 .containercontrate{
 	margin: 0 auto;
 	padding: 0 ;
-	width: 90%;
 	max-width: 1200px;
 	width: 100%;
 	height: 100%;
-	background-color: #E1E0E0;
 }
 .f1{
 	color: red;
@@ -68,7 +66,7 @@ footer{
 }
 
 img:hover{
-	-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
+-moz-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
 -webkit-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
 -o-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
 -ms-transform: scale(2) rotate(360deg) translateX(10px) translateY(10px);
